@@ -1,0 +1,10 @@
+#Tue Aug 06 17:47:32 CEST 2019
+state=running
+start=17\:47\:31
+code=python
+info=Results parsed\: {1\=1.0}
+output={}
+input.No\ name=No value
+duration=0
+end=
+calc=localhost\:38331
