@@ -1,8 +1,5 @@
 [![Build Status](https://travis-ci.org/Funz/plugin-MyPlugin.png)](https://travis-ci.org/Funz/plugin-MyPlugin)
 
-___This repositry is intended to be forked as a basis for an new plugin implementation.___
-___You can search for "MyPlugin" as a key to replace everywhere in this directory.___
-
 # Funz plugin: Python 3
 
 This plugin is dedicated to launch Python 3 calculations from Funz.
@@ -15,15 +12,15 @@ It supports the following syntax and features:
       * formula syntax: `${...}`
       * comment char: `#`
     * example input file:
-        ```python
-	import math as m
-	def branin(x1,x2):
-	    x1 = x1*15-5
-	    x2 = x2*15
+```
+import math as m
+def branin(x1,x2):
+    x1 = x1*15-5
+    x2 = x2*15
 
-	    return (x2 - 5/(4*m.pi^2)*(x1^2) + 5/m.pi*x1 -6 )^2 + 10*(1-1/(8*m.pi))*m.cos(x1) +10
-	print( "z={0}".format( branin( ?[x1~[1,2]], ${x2 +1.23} | #.###)))
-        ```
+    return (x2 - 5/(4*m.pi^2)*(x1^2) + 5/m.pi*x1 -6 )^2 + 10*(1-1/(8*m.pi))*m.cos(x1) +10
+print( "z={0}".format( branin( ?[x1~[1,2]], ${x2 +1.23} | #.###)))
+```
       * will identify input:
         * x1, expected to vary inside [1,2]
         * x2, expected to vary inside [0,1] (by default)
