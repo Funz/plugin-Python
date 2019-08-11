@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/Funz/plugin-MyPlugin.png)](https://travis-ci.org/Funz/plugin-MyPlugin)
+[![Build Status](https://travis-ci.org/Funz/plugin-Python.png)](https://travis-ci.org/Funz/plugin-Python)
 
 # Funz plugin: Python 3
 
