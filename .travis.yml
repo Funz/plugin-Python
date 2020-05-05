@@ -31,9 +31,9 @@ script:
 
 before_deploy:
   - ant clean dist
-  - cd dist; zip -r ../plugin-MyPlugin.zip *; cd ..
+  - cd dist; zip -r ../plugin-Python.zip *; cd ..
   - ant install
-  - zip -r Funz-MyPlugin.zip Funz-MyPlugin
+  - zip -r Funz-Python.zip Funz-Python
   
 deploy:
   provider: releases
